@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>java</title>
+<link rel="stylesheet" type="text/css" href="timeline/timeline_2,0.css" />
+</head>
+
+<body>
+    
+    
+    
+    <section id="cd-timeline" class="cd-container">
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture">
+				<img src="https://cdn1.iconfinder.com/data/icons/venetian-red-to-beautify-your-website/512/Location_Tag_Point-512.png" alt="Picture">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Title of section 1</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+				<a href="#0" class="cd-read-more">Read more</a>
+				<span class="cd-date">Jan 14</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+    <div class="header">
+    <h1>JavaScript</h1>
+    <p>nice</p>
+    </div>
+    
+    <div class="container">
+  
+    </div>
+    
+
+    
+    <script>
+    
+     
+            
+//datatypes
+//numbers
+//string: concatinate
+        
+//Array, used to store multiple values, in a singel variable:
+var colors = ['red', 'green', 'blue'];
+// to target a singel variabel in array:
+alert(colors[1]);
+//add to array:
+colors[3] = 'yellow';
+//push function, adds something to the end of the array, as last variable (dot-syntax):
+colors.push('purple')
+
+var numbers = [53,62,2,'zero'];
+
+numbers.sort();        
+ numbers.reverse();
+        
+        
+//objekt
+    
+var number1 = 35;
+var number2 = 40;
+
+var number3 = '35';        
+var number4 = '40';        
+alert(number1+number2);
+alert('my favorite number is '+number3);        
+//variables can contain: letter, number, underscore, dollar sign
+//begins with a letter
+//case sensitive        
+
+ //camel case: starts with a lowercase number, and every word after that starts with uppercase:        
+var myFavoriteNumber;         
+        
+
+//partial case, same as camel case, except first word also starts with uppercase 
+var MyFavoriteNumber;        
+        
+        
+//underscorestyle:
+var my_favorite_number:
+
+
+console.log(123);
+
+//loops:
+
+for(var i = 0; i<10; i++){
+    console.log(i);
+
+        
+        
+    console.log('hello')
+    
+    for(var i = 0; i<=10; i++){
+    console.log('i love the number '+i);}
+        
+        
+    //while loop
+        
+    var i=0    
+    while(i < 10){console.log(i);
+                 i++;}    
+        
+
+     var numbers = [22,33,66,55,88,44,99];
+        
+        numbers.forEach(function(number){
+            console.log(number);
+        });     
+  
+       for(var i=0;i<numbers.length;i++){
+           console.log(numbers[i]);
+       } 
+
+        
+        
+        
+    if(2==1){console.log('this is true');
+            }
+        else{console.log('this is false');}
+        
+        //object litiral:
+        
+        var person = {
+            firstName: 'bo',
+            lastName: 'pedersen',
+            age: 99,
+            children: ['per', 'yvonne'],
+            adress: {street: 'solvej',
+                    city: 'tarm',
+                    state: 'jylland'},
+            fullName: function(){
+                return this.firstName +" "+this.lastName;
+            }
+            
+        }
+        console.log(person.fullName());
+        
+        // constructor pattern
+        
+        function fruit(name, color, shape){
+            this.name = name;
+            this.color = color;
+            this.shape = shape;
+            
+            this.describe = function(){
+                return 'A '+this.name+' is the color '+this.color+' and is the shape '+this.shape;
+            }
+        }
+        
+        var melon = new.fruit('melon', 'orange-ish', 'round');
+        
+        console.log(melon.name());
+       
+                
+        
+        
+        
+    </script>
+
+    
+    
+    
+    
+    </body>
+    
+    
+</html>
+
+
+
+
