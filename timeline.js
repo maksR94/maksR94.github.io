@@ -1,7 +1,4 @@
 
-          function revealMessage() {
-      document.getElementById("hiddenMessage").style.display = 'block';
-  }    
             
      CountDownTimer('06/22/2017 03:00 PM', 'countdown');
     CountDownTimer('06/24/2017 09:40 AM', 'newcountdown');
@@ -40,9 +37,7 @@
         timer = setInterval(showRemaining, 1000);
     }
           
-       function RevealMessage() {
-      document.getElementById("HiddenMessage").style.display = 'block';
-  }    
+ 
             
      CountDownTimer('06/22/2017 03:00 PM', 'countDown_2');
     CountDownTimer('06/24/2017 09:40 AM', 'newcountDown_2');
@@ -82,18 +77,63 @@
     }
 
 
-      function RevealMessage_2() {
-      document.getElementById("HiddenMessage_2").style.display = 'block';
-  }   
 
-  function RevealMessage_3() {
-      document.getElementById("HiddenMessage_3").style.display = 'block';
-  }   
+// The journey begins
+function myFunction() {
+    var x = document.getElementById('myDIV');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
 
-  function RevealMessage_4() {
-      document.getElementById("HiddenMessage_4").style.display = 'block';
-  }   
+//meeting up with Keenie in Brisbane
+function myFunction2() {
+    var x = document.getElementById('myDIV2');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
 
- function RevealMessage_5() {
-      document.getElementById("HiddenMessage_5").style.display = 'block';
-  }  
+//Skydiving in Cairns
+function myFunction3() {
+    var x = document.getElementById('myDIV3');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+
+//El Questro Wilderness Park - Kununurra
+function myFunction4() {
+    var x = document.getElementById('myDIV4');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+
+//Bali and the Gili Islands
+function myFunction5() {
+    var x = document.getElementById('myDIV5');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+
+//Meeting up with dad and asta in Tokyo
+function myFunction6() {
+    var x = document.getElementById('myDIV6');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
